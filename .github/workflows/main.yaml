@@ -2,13 +2,7 @@ name: lab-testing
 
 # add your pipline description below
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   unit-tests:
